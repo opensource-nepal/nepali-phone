@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 description = "Parse and validate Nepali phone numbers (mobile and landline)."
 license = "MIT"
+readme = "README.md"
+keywords = ["nepali", "phone", "phone-numbers", "nepali-phone-numbers"]
+categories = ["utilities", "parsing"]
 
 [dependencies]
 regex = "1"
