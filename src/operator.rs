@@ -24,7 +24,7 @@ impl fmt::Display for Operator {
 pub fn operator_for(number: &str) -> Option<Operator> {
     // Expects a 10-digit string with no country code.
     match &number[..3] {
-        "984" | "985" | "986" | "974" | "975" => Some(Operator::NepalTelecom),
+        "984" | "985" | "986" | "974" | "975" | "976" => Some(Operator::NepalTelecom),
         "980" | "981" | "982"                  => Some(Operator::Ncell),
         "961" | "962" | "988"                  => Some(Operator::SmartCell),
         "972"                                   => Some(Operator::Utl),
