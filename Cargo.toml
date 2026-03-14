@@ -1,5 +1,5 @@
 [package]
-name = "nepal-phone"
+name = "nepali-phone"
 version = "0.1.0"
 edition = "2021"
 description = "Parse and validate Nepali phone numbers (mobile and landline)."

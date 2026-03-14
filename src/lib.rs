@@ -1,4 +1,4 @@
-//! # nepal-phone
+//! # nepali-phone
 //!
 //! Parse and validate Nepali mobile and landline phone numbers.
 //! ...

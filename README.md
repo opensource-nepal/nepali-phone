@@ -1,14 +1,11 @@
-# nepal-phone
+# nepali-phone
 
-<!--
-[![Crates.io](https://img.shields.io/crates/v/nepal-phone.svg)](https://crates.io/crates/nepal-phone)
-[![CI status](https://github.com/your-org/nepal-phone/actions/workflows/rust.yml/badge.svg)](https://github.com/your-org/nepal-phone/actions)
-[![Downloads](https://img.shields.io/crates/d/nepal-phone.svg)](https://crates.io/crates/nepal-phone)
-[![docs.rs](https://docs.rs/nepal-phone/badge.svg)](https://docs.rs/nepal-phone) -->
+[![Crates.io](https://img.shields.io/crates/v/nepali-phone.svg)](https://crates.io/crates/nepali-phone)
+[![Downloads](https://img.shields.io/crates/d/nepali-phone.svg)](https://crates.io/crates/nepali-phone)
 
-`nepal-phone` is a Rust crate for parsing and validating Nepali phone numbers.
+`nepali-phone` is a Rust crate for parsing and validating Nepali phone numbers.
 
-It detects whether a number is **mobile** or **landline**, identifies the mobile **operator**, and resolves the geographic **district / area** from the STD area code — covering all 77 districts across Nepal's 7 provinces.
+It detects whether a number is **mobile** or **landline**, identifies the mobile **operator**, and resolves the geographic **district / area** from the STD area code for all 77 districts acrbss Nepal's 7 provinces.
 
 ## Example
 
@@ -37,7 +34,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-nepal-phone = "0.1"
+nepali-phone = "0.1"
 ```
 
 ## Features
